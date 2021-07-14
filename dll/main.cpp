@@ -1,9 +1,9 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
-#include <detours/detours.h>
 
 #include <winsock2.h>
 #include <WS2tcpip.h>
+#include "../Detours/src/detours.h"
 
 #pragma comment(lib, "ws2_32.lib")
 
